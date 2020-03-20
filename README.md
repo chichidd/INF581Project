@@ -16,7 +16,7 @@ Using A3C & DQN for car racing environment
 ## Run the code
 
 ```bash
-python -m run --<action> -m=<model>
+python run.py -m <model> --<action>
 ```
 Possible values for parameter `action` are: `train`, `inference` and `evaluate`.
 
